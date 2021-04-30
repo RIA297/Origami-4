@@ -1,0 +1,57 @@
+h1{
+    color:gold
+    
+}
+.header *{
+    border:solid
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color:  #aa00ee;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #aa00ee;
+}
+.grid{
+    border : 2px solid #000000;
+    border-radius: 50px;
+    display:flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+}
+
+.item {
+    border-radius: 20px;
+    background-color: #df4040;
+    padding: 30px;
+    margin: 25px;
+    width: 500px;
+    font-family: fantasy;
+    color:aquamarine;
+}
+
+body{
+    background-color: #00d9ff;
+}
+
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+
+.item:hover{
+    transform:scale(1,2);
+}
+
+.item:hover img{
+    opacity:0.33;
+}
+
+
+
+
